@@ -1,0 +1,23 @@
+{
+  "name": "depedency-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rubensitbon/depedency-tracker.git",
+  "author": "Ruben Sitbon <ruben.sitbon@outlook.com>",
+  "license": "MIT",
+  "private": null,
+  "devDependencies": {
+    "@welldone-software/why-did-you-render": "^4.2.5",
+    "babel-core": "^6.26.3",
+    "enzyme": "^3.11.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "flow-bin": "^0.127.0",
+    "flow-typed": "^3.1.0",
+    "flow-watch": "^2.0.0",
+    "prettier": "^2.0.5",
+    "source-map-explorer": "^2.4.2",
+    "typescript": "^3.9.5"
+  }
+}
