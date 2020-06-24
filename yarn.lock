@@ -47,29 +47,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.0.0", "@babel/core@^7.1.0", "@babel/core@^7.7.5":
-  version "7.10.2"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.10.2.tgz#bd6786046668a925ac2bd2fd95b579b92a23b36a"
-  integrity sha512-KQmV9yguEjQsXqyOUGKjS4+3K8/DlOCE2pZcq4augdQmtTy5iv5EHtmMSJ7V4c1BIPjuwtZYqYLCq9Ga+hGBRQ==
-  dependencies:
-    "@babel/code-frame" "^7.10.1"
-    "@babel/generator" "^7.10.2"
-    "@babel/helper-module-transforms" "^7.10.1"
-    "@babel/helpers" "^7.10.1"
-    "@babel/parser" "^7.10.2"
-    "@babel/template" "^7.10.1"
-    "@babel/traverse" "^7.10.1"
-    "@babel/types" "^7.10.2"
-    convert-source-map "^1.7.0"
-    debug "^4.1.0"
-    gensync "^1.0.0-beta.1"
-    json5 "^2.1.2"
-    lodash "^4.17.13"
-    resolve "^1.3.2"
-    semver "^5.4.1"
-    source-map "^0.5.0"
-
-"@babel/core@^7.10.3", "@babel/core@^7.4.5":
+"@babel/core@^7.0.0", "@babel/core@^7.1.0", "@babel/core@^7.10.3", "@babel/core@^7.4.5", "@babel/core@^7.7.5":
   version "7.10.3"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.10.3.tgz#73b0e8ddeec1e3fdd7a2de587a60e17c440ec77e"
   integrity sha512-5YqWxYE3pyhIi84L84YcwjeEgS+fa7ZjK6IBVGTjDVfm64njkR2lfDhVR5OudLk8x2GK59YoSyVv+L/03k1q9w==
@@ -91,7 +69,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/generator@^7.10.1", "@babel/generator@^7.10.2", "@babel/generator@^7.5.0":
+"@babel/generator@^7.10.1", "@babel/generator@^7.5.0":
   version "7.10.2"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.10.2.tgz#0fa5b5b2389db8bfdfcc3492b551ee20f5dd69a9"
   integrity sha512-AxfBNHNu99DTMvlUPlt1h2+Hn7knPpH5ayJ8OqDWSeLld+Fi2AYBTC/IejWDM9Edcii4UzZRCsbUt0WlSDsDsA==
@@ -418,7 +396,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.0.0", "@babel/parser@^7.1.0", "@babel/parser@^7.10.1", "@babel/parser@^7.10.2", "@babel/parser@^7.7.0":
+"@babel/parser@^7.0.0", "@babel/parser@^7.1.0", "@babel/parser@^7.10.1", "@babel/parser@^7.7.0":
   version "7.10.2"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.10.2.tgz#871807f10442b92ff97e4783b9b54f6a0ca812d0"
   integrity sha512-PApSXlNMJyB4JiGVhCOlzKIif+TKFTvu0aQAhnTvfP/z3vVSN6ZypH5bfUNwFXXjRQtUEBNFd2PtmCmG2Py3qQ==
@@ -1370,6 +1348,24 @@
     xcode "^2.1.0"
     xml2js "^0.4.23"
 
+"@expo/config@3.2.13":
+  version "3.2.13"
+  resolved "https://registry.yarnpkg.com/@expo/config/-/config-3.2.13.tgz#7e0c2386ea87863cc432fba500e147fbff8e8c53"
+  integrity sha512-ThZoLx5HmhtmmVSXnpgZvGjJVvdVpdHlHBp57ivTqlCH3sY+dfi4o38HagKYZONvAzHhdT/a28PeGtt8wd9AVw==
+  dependencies:
+    "@babel/register" "^7.8.3"
+    "@expo/babel-preset-cli" "0.2.16"
+    "@expo/json-file" "8.2.21"
+    "@expo/plist" "0.0.8"
+    fs-extra "9.0.0"
+    glob "7.1.6"
+    invariant "^2.2.4"
+    resolve-from "^5.0.0"
+    semver "^7.1.3"
+    slugify "^1.3.4"
+    xcode "^2.1.0"
+    xml2js "^0.4.23"
+
 "@expo/config@^2.5.3":
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/@expo/config/-/config-2.7.0.tgz#8f03b99b72ff2ee113d2b82e7e485206e3b95cb4"
@@ -1660,7 +1656,7 @@
   dependencies:
     lodash "^4.17.4"
 
-"@expo/webpack-config@0.12.15", "@expo/webpack-config@^0.12.15":
+"@expo/webpack-config@0.12.15":
   version "0.12.15"
   resolved "https://registry.yarnpkg.com/@expo/webpack-config/-/webpack-config-0.12.15.tgz#1550e51fe4d7f7f1493767fe83ead49823bebd46"
   integrity sha512-bhpPAd1SJ6u7VqrYe4xt8lvJRp9caJ2V9Rb+W+F4zJpDHsEv5B/DrY4gkJKU/G28Rfx4fh78l01cJYH82BfTGA==
@@ -1674,6 +1670,44 @@
     copy-webpack-plugin "5.0.0"
     css-loader "^2.1.1"
     expo-pwa "0.0.23"
+    file-loader "4.2.0"
+    find-yarn-workspace-root "~2.0.0"
+    getenv "^0.7.0"
+    html-loader "^0.5.5"
+    html-webpack-plugin "4.0.0-alpha.2"
+    is-wsl "^2.0.0"
+    mini-css-extract-plugin "^0.5.0"
+    node-html-parser "^1.2.12"
+    optimize-css-assets-webpack-plugin "^5.0.1"
+    pnp-webpack-plugin "^1.5.0"
+    postcss-safe-parser "^4.0.1"
+    progress "^2.0.3"
+    react-dev-utils "9.0.3"
+    style-loader "^0.23.1"
+    terser-webpack-plugin "^1.2.3"
+    url-loader "^1.1.2"
+    webpack "4.42.1"
+    webpack-deep-scope-plugin "1.6.0"
+    webpack-manifest-plugin "^2.2.0"
+    webpackbar "^4.0.0"
+    workbox-webpack-plugin "^3.6.3"
+    worker-loader "^2.0.0"
+    yup "^0.27.0"
+
+"@expo/webpack-config@^0.12.16":
+  version "0.12.16"
+  resolved "https://registry.yarnpkg.com/@expo/webpack-config/-/webpack-config-0.12.16.tgz#5acf3a677498e982cf27a97c13e19016dcf6c172"
+  integrity sha512-WnUioYBdY+YvuSNep5AVlDCGTOmGKp05Y1xsZsfq4M1mtN5pYk30MPch6tDOfwLgC/z/Zblbl+QAPWyDjm7m0g==
+  dependencies:
+    "@babel/core" "7.9.0"
+    "@babel/runtime" "7.9.0"
+    "@expo/config" "3.2.13"
+    babel-loader "8.1.0"
+    chalk "^4.0.0"
+    clean-webpack-plugin "^3.0.0"
+    copy-webpack-plugin "5.0.0"
+    css-loader "^2.1.1"
+    expo-pwa "0.0.24"
     file-loader "4.2.0"
     find-yarn-workspace-root "~2.0.0"
     getenv "^0.7.0"
@@ -7453,6 +7487,19 @@ expo-pwa@0.0.23:
   integrity sha512-h6fema9gQNBHI+rOzCgyzAR0BKBCYYMj8OL5jLEI1p84TmXNs6Tu9008qnI154D4ZeuUAvSlWAhNJIQyu7FGBQ==
   dependencies:
     "@expo/config" "3.2.12"
+    "@expo/image-utils" "0.3.0"
+    "@expo/json-file" "8.2.21"
+    chalk "^4.0.0"
+    commander "2.20.0"
+    fs-extra "9.0.0"
+    update-check "1.5.3"
+
+expo-pwa@0.0.24:
+  version "0.0.24"
+  resolved "https://registry.yarnpkg.com/expo-pwa/-/expo-pwa-0.0.24.tgz#bdfa9bcce0f4b6c561eb1540731565dbd0f5189b"
+  integrity sha512-Sir6FnoO4cFI3V5V0Lc2LVGQuRKCbLoLpObZ9xpP0Eoy0FLV9GBLjuYljco7mtb/CdOaaBIh/2vcLfyaouOhWA==
+  dependencies:
+    "@expo/config" "3.2.13"
     "@expo/image-utils" "0.3.0"
     "@expo/json-file" "8.2.21"
     chalk "^4.0.0"
