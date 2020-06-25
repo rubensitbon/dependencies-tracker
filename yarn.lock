@@ -14332,10 +14332,10 @@ react-native@^0.62.2:
     use-subscription "^1.0.0"
     whatwg-fetch "^3.0.0"
 
-react-navigation-stack@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/react-navigation-stack/-/react-navigation-stack-2.7.0.tgz#290e8c054d7559d3980e2bff0869c5e7066a4d4f"
-  integrity sha512-EnPQqbhBwY6b53O3JBNCG38w5Z1/ZbTJ79OZsC2ukdAPlpF7pQ9+0m2BFLqtPTieeh4wBfYW4eX/DXgKEqkNOA==
+react-navigation-stack@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/react-navigation-stack/-/react-navigation-stack-2.8.1.tgz#988178d51ec3bbc4f698892c3aa9286e7f9344cc"
+  integrity sha512-2VFevA3EaiG/htZeP2ZxW4mDz1GLIh0N1mfRtvmTF32XPjxoQFixBFZhlQANRK4q8CocSppG4qHJpAnRu/OJGA==
   dependencies:
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
