@@ -43,7 +43,7 @@
     "lodash": "^4.17.19",
     "moment": "^2.27.0",
     "mysql": "^2.18.1",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-dom": "^16.13.1",
     "react-native": "^0.62.2",
     "react-native-code-push": "^6.2.1",
