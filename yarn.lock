@@ -14692,10 +14692,10 @@ react-native-safe-area-view@^0.14.9:
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
-react-native-web@^0.14.3:
-  version "0.14.3"
-  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.14.3.tgz#a52fdd13583546517849954d497ba38ddc2e2e3f"
-  integrity sha512-On3cPbVhNgHtMK+f/V6mVE1EJUc6m9hl0sBmaWT9I3PXdrZD0n7GY5SYZFVsJw6kKW8Ge89+q8LJPXRYkI3hWw==
+react-native-web@^0.14.8:
+  version "0.14.8"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.14.8.tgz#1f3eba659216936be61b7bcfe4cb6c6f5e8ed056"
+  integrity sha512-MVKEqLMlUFlThp56/LbQM+cyLKyjY6+pk3MFZ/6VC/ZhTldmN86Otd4cxlopJYiEj0woG9klnz3+GmI47bKv0A==
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"
