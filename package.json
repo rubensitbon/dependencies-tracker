@@ -21,7 +21,7 @@
     "flow-watch": "^2.0.0",
     "jest": "^26.1.0",
     "nodemon": "^2.0.6",
-    "prettier": "^2.0.5",
+    "prettier": "^2.2.0",
     "redux-devtools": "^3.5.0",
     "source-map-explorer": "^2.4.2",
     "typescript": "^3.9.6",
