@@ -37,7 +37,7 @@
     "axios": "^0.19.2",
     "babel-preset-expo": "^8.2.3",
     "expo": "^38.0.8",
-    "expo-cli": "^3.22.1",
+    "expo-cli": "^4.0.8",
     "express": "^4.17.1",
     "jest-expo": "^38.0.2",
     "lodash": "^4.17.19",
