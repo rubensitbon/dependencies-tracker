@@ -49,7 +49,7 @@
     "react-native-code-push": "^6.2.1",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-reanimated": "^1.9.0",
-    "react-native-web": "^0.14.3",
+    "react-native-web": "^0.14.13",
     "react-navigation": "^4.4.0",
     "redux-persist": "^6.0.0",
     "styled-components": "^5.1.1"
