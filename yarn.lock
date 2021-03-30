@@ -4088,10 +4088,10 @@ apollo-utilities@^1.0.0, apollo-utilities@^1.0.1:
     ts-invariant "^0.4.0"
     tslib "^1.10.0"
 
-appcenter-link-scripts@3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/appcenter-link-scripts/-/appcenter-link-scripts-3.1.2.tgz#97025d322fd38e7e84c85424801613ed826c02bc"
-  integrity sha512-L6wEqUraNYV7X9BAJ+/DvI7XedNnQrdW8cfBJI9HhgzJVAOaHEVcj4BxDQv5H7y5vpKH66G/m8CHx79YgtMPhg==
+appcenter-link-scripts@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/appcenter-link-scripts/-/appcenter-link-scripts-4.1.0.tgz#ff9d337fb7841c2cbf86cd5f34bd7310e945d0f5"
+  integrity sha512-sTd8H4H9wNwBkUKHasvDGNBln34+dHEFlaT/P6O0gvs6TWU3JxlY8uXpB/IqAi2lSWPs3TMgQ7NGXTjvC6oZig==
   dependencies:
     debug "4.1.1"
     glob "5.0.15"
@@ -4101,12 +4101,12 @@ appcenter-link-scripts@3.1.2:
     which "1.2.11"
     xcode "2.0.0"
 
-appcenter@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/appcenter/-/appcenter-3.1.2.tgz#183c356db239cf036c280ff2577029dcdba0a912"
-  integrity sha512-69WrDb3dGiT9S9OBhz/eaC384jxXHZIPXwk9FJG8uSZgFdHo+CKw4zbbVrPAHXEPkrgstVNMCuar9XXkr7A1Bw==
+appcenter@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/appcenter/-/appcenter-4.1.0.tgz#d4c9b43adcaac32a328dc8e9f9f0607e0a7d5691"
+  integrity sha512-JUwb/4sMw68CN2AlJEp1G5iVl/Rzv8fg8t9CzeRaEcnOku42h6+vlYbYe3P5YW18kAIA/hCH0uoDaa0kc9qfDA==
   dependencies:
-    appcenter-link-scripts "3.1.2"
+    appcenter-link-scripts "4.1.0"
 
 application-config-path@^0.1.0:
   version "0.1.0"
