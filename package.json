@@ -35,7 +35,7 @@
     "@types/react-native": "^0.63.1",
     "appcenter": "^3.1.2",
     "axios": "^0.19.2",
-    "babel-preset-expo": "^8.2.3",
+    "babel-preset-expo": "^8.4.1",
     "expo": "^38.0.8",
     "expo-cli": "^3.22.1",
     "express": "^4.17.1",
